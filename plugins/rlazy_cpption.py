@@ -1,16 +1,5 @@
-    # Credit @LazyDeveloper.
-    # Please Don't remove credit.
-        # Born to make history @LazyDeveloper !
-
-    # Thank you LazyDeveloper for helping us in this Journey
 from pyrogram import Client, filters
 from database.users_chats_db import db
-
-
-
-
-
-
 
 
 @Client.on_message(filters.private & filters.command('set_caption'))

@@ -1,1 +1,1 @@
-web: python3 bot.py -p 8080
+web: python3 bot.py -p $PORT

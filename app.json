@@ -1,26 +1,21 @@
 {
-    "name": "LazyPrincess",
-    "description": "LazyPrincess is a Super and Fully Advance Auto-filter-Bot - With Artificial Intelligence + File renaming + Url Shortning + Online FIle Streaming Feature. Thanks to LazyDeveloper for making it so cool.",
+    "name": "CINE3600",
+    "description": "CINE3600 is a Super and Fully Advance Auto-filter-Bot - With Artificial Intelligence + File renaming + Url Shortning + Online FIle Streaming Feature. Thanks to LazyDeveloper for making it so cool.",
     "stack": "container",
     "keywords": [
-      "LazyDeveloperr",
-      "Lazy Princess Bot",
       "auto-filter Bot",
       "Auto-Filter with File Stream",
       "Auto-filter with url-shortner",
       "telegram-bot",
       "best-telegram-bot",
       "media-search bot",
-      "bots like lazy princess",
-      "Auto Filter bot by LazyDeveloperr",
+      "bots like CINE3600",
+      "Auto Filter bot by its_raj3600",
       "Auto filter bot github",
       "Auto filter bot for heroku",
-      "Why I don't know LazyDeveloperr",
-       "Lazy Princess",
-       "LazyPrincess"
-    ],
-    "website": "https://github.com/LazyDeveloperr/LazyPrincess",
-    "repository": "https://github.com/LazyDeveloperr/LazyPrincess",
+      ],
+    "website": "https://itsraj3600.xyz",
+    "repository": "https://github.com/its_raj3600/CINE3600",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
