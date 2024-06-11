@@ -1,7 +1,7 @@
 # CINE3600
 
 <p align="center">
-  <img src="https://telegra.ph/file/6fa70325813885809a64a.jpg" alt="CINE3600 Logo">
+  <img src="https://telegra.ph/file/dbd90c99bafe8a57b9c00.jpg" alt="CINE3600 Logo">
 </p>
 <h1 align="center">
   <a href="https://telegram.me/CINE3600">THE MOVIE PROVIDER BOT</a>
@@ -105,41 +105,22 @@ restart - ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ...
 - `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 - `CHANNELS`: ID of channel for Auto Indexing. Separate multiple IDs by space. Make sure bot is admin.
 - `ADMINS`: ID of Admin. Separate multiple Admins by space.
-- `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
+- `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/cine3600)
 - `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 - `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 
-<details>
-Use these commands:
-<br>
-<br>
-• Build Command: <code>pip3 install -U -r requirements.txt</code>
-<br>
-<br>
-• Start Command: <code>python3 bot.py</code>
-<br>
-<br>
-Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
-<br>
-<br>
-Use these settings when adding a monitor:</b>
-<br>
-<br>
-<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
-<br>
-</details>
 <hr>
 
 ## Thanks to
 
-- Thanks To [HP](https://t.me/DeltedFromEarth) for customising this amazing [Repo](https://github.com/HarshalPurohitEdits/TheMovieProviderBot).
+- Thanks To [RAJ3600](https://t.me/its_raj3600) for customising this amazing [Repo](https://github.com/Itsraj3600/CINE3600).
 - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
 - Thanks To [EvamariaTG](https://raw.githubusercontent.com/EvamariaTG) for their awesome [EvaMaria Bot](https://raw.githubusercontent.com/EvamariaTG/EvaMaria)
 - Thanks To [Joelkb](https://github.com/Joelkb) for their awesome repo [DqFileDonor](https://github.com/Joelkb/DQ-the-file-donor)
 
 ## Note 🏷️
 
-- [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/DeletedFromEarth)
+- [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/its_raj3600)
 
 [Note To A So Called Dev](https://telegram.dog/subin_works/203):
 
@@ -151,11 +132,3 @@ Fork the repo and edit as per your needs.
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)  
 Licensed under [GNU AGPL 2.0.](https://github.com/EvamariaTG/evamaria/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is _Strictly Prohibited_.
-
-python3 bot.py
-
-</pre>
-</p>
-</details>
-r an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo won't make you a Developer.
-Fork the repo and edit as per your needs.
