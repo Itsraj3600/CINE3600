@@ -8,7 +8,6 @@ from utils import get_size, temp, get_settings
 from Script import script
 from pyrogram.errors import ChatAdminRequired
 
-"""-----------------------------------------https://t.me/LazyDeveloper --------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -38,7 +37,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('🤥 Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('🔔 Updates', url='https://t.me/LazyDeveloper')
+            InlineKeyboardButton('🔔 Updates', url='https://t.me/CINE3600')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -150,17 +149,13 @@ async def get_ststs(bot, message):
     await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
 
 
-# a function for trespassing into others groups, Inspired by a Vazha
-# Not to be used , But Just to showcase his vazhatharam.
-# @Client.on_message(filters.command('invite') & filters.user(ADMINS))
 async def gen_invite(bot, message):
     if len(message.command) == 1:
         return await message.reply('Give me a chat id')
     chat = message.command[1]
     try:
         chat = int(chat)
-    except:
-        return await message.reply('Give Me A Valid Chat ID')
+    except:0A Valid Chat ID')
     try:
         link = await bot.create_chat_invite_link(chat)
     except ChatAdminRequired:

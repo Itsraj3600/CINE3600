@@ -1037,42 +1037,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    # elif query.data == "getlazythumbnail":
-    #     buttons = [
-    #         [
-    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="thdonatelazydev"),
-    #         ],
-    #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="lazyhome") ]
-    #         ]
-    #     reply_markup = InlineKeyboardMarkup(buttons)
-    #     await query.message.edit_text(
-    #         text=script.LZTHMB_TEXT.format(query.from_user.mention),
-    #         reply_markup=reply_markup,
-    #         parse_mode=enums.ParseMode.HTML
-    #     )
-    # elif query.data == "thdonatelazydev":
-    #     buttons = [
-    #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="getlazythumbnail") ]
-    #         ]
-    #     reply_markup = InlineKeyboardMarkup(buttons)
-    #     await query.message.edit_text(
-    #         text=script.DNT_TEXT.format(query.from_user.mention),
-    #         reply_markup=reply_markup,
-    #         parse_mode=enums.ParseMode.HTML
-    #     )
-    # elif query.data == "getlazylink":
-    #     buttons = [
-    #         [
-    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="linkdonatelazydev"),
-    #         ],
-    #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="lazyhome") ]
-    #         ]
-    #     reply_markup = InlineKeyboardMarkup(buttons)
-    #     await query.message.edit_text(
-    #         text=script.LZLINK_TEXT.format(query.from_user.mention),
-    #         reply_markup=reply_markup,
-    #         parse_mode=enums.ParseMode.HTML
-    #     )
+    
     elif query.data == "donatelazydev":
         buttons = [
             [ InlineKeyboardButton("⨳   Close   ⨳", callback_data="close_data") ]
@@ -1102,63 +1067,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    # elif query.data == "reqauthgetlazythumbnail":
-    #     buttons = [
-    #         [
-    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="thdonatelazydev"),
-    #         ],
-    #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="reqauthlazyhome") ]
-    #         ]
-    #     reply_markup = InlineKeyboardMarkup(buttons)
-    #     await query.message.edit_text(
-    #         text=script.LZTHMB_TEXT.format(query.from_user.mention),
-    #         reply_markup=reply_markup,
-    #         parse_mode=enums.ParseMode.HTML
-    #     )
-    # elif query.data == "reqauthlazyhome":
-    #     text = f"""\n⨳ *•.¸♡ L҉ΛＺ𝐲 ＭⓄｄ𝓔 ♡¸.•* ⨳\n\n**Please tell, what should i do with this file.?**\n"""
-    #     buttons = [[ InlineKeyboardButton("📝✧✧ S𝚝ar𝚝 re𝚗aᗰi𝚗g ✧✧📝", callback_data="requireauth") ],
-    #                        [ InlineKeyboardButton("⨳  C L Ф S Ξ  ⨳", callback_data="cancel") ]]
-    #     reply_markup = InlineKeyboardMarkup(buttons)
-    #     await query.message.edit_text(
-    #                 text=text,
-    #                 reply_markup=reply_markup,
-    #                 parse_mode=enums.ParseMode.HTML
-    #             )
-    # elif query.data == "reqauthgetlazylink":
-    #     buttons = [
-    #         [
-    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="linkdonatelazydev"),
-    #         ],
-    #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="reqauthlazyhome") ]
-    #         ]
-    #     reply_markup = InlineKeyboardMarkup(buttons)
-    #     await query.message.edit_text(
-    #         text=script.LZLINK_TEXT.format(query.from_user.mention),
-    #         reply_markup=reply_markup,
-    #         parse_mode=enums.ParseMode.HTML
-    #     )
+
     elif query.data == "exit":
         await query.answer("Sorry Darling! You can't make any changes...\n\nOnly my Admin can change this setting...", show_alert = True)
         return
     elif query.data == "invalid_index_process":
         await query.answer("Hey sweetie, please send me the last media with quote from your group.\nAnd also make sure that i am admin in your beloved group...")
         return
-    # elif query.data == "already_uploaded":
-    #     if query.from_user.id not in ADMINS:
-    #         await query.answer("Sorry Darling! You can't make any changes...\n\nOnly my Admin can change this setting...", show_alert = True)
-    #         return
-    #     else:
-    #         message = message.text
-    #         chat_id = message.chat_id
-    #         extracted_line = re.search(pattern, message, re.MULTILINE)
-    #         if extracted_line:
-    #           # Send the extracted line to the other group chat
-    #             buttons = [
-    #             [ InlineKeyboardButton("⨳ ok ⨳", callback_data="cancel") ]
-    #             ]
-    #             reply_markup = InlineKeyboardMarkup(buttons)
-    #             await client.send_message(MOVIE_GROUP_ID, text=extracted_line.group(1))
     elif query.data == "cancel":
         try:
             await query.message.delete()

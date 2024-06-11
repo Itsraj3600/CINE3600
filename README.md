@@ -4,7 +4,7 @@
   <img src="https://telegra.ph/file/dbd90c99bafe8a57b9c00.jpg" alt="CINE3600 Logo">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/CINE3600">THE MOVIE PROVIDER BOT</a>
+  <a href="https://telegram.me/CINE3600">THE CINE3600 BOT</a>
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+THE-CINE3600-BOT;A+SIMPLE+AND+POWERFUL+BOT!;A+BOT+WITH+CUSTOM+URL+SHORTNER;AND+CUSTOM+TUTORIAL!;ALSO+HAVE+STREAM+ONLINE;AND+FAST+DOWNLOAD+FEATURE!;AND+MANY+MORE+FEATURES!)
